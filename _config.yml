@@ -11,16 +11,14 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
-- category
 - tag
-- tagcloud
 - archive
 - recent_posts
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-1913538-2
 favicon: /favicon.png
-twitter:
+twitter: williamjohnbert
 google_plus:
 fb_admins:
 fb_app_id:
