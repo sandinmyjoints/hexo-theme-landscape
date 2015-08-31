@@ -14,9 +14,9 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
-- tag
-- archive
 - recent_posts
+- archive
+- tag
 
 # Miscellaneous
 google_analytics: UA-1913538-2
