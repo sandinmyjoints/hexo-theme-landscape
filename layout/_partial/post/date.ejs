@@ -1,3 +1,7 @@
-<a href="<%- url_for(post.path) %>" class="<%= class_name %>">
-  <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= date(post.date, date_format) %></time>
-</a>
+<% if (index || isBlogPost){ %>
+  <a href="<%- url_for(post.path) %>" class="<%= class_name %>">
+    <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= date(post.date, date_format) %></time>
+  </a>
+<% } else { %>
+  <div style="display: block; height: 14px; margin-bottom: 14px"></div>
+<% } %>
