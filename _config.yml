@@ -18,8 +18,19 @@ widgets:
 - archive
 - tag
 
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
 # Miscellaneous
 google_analytics: UA-1913538-2
+gauges_analytics:
 favicon: /favicon.png
 twitter: williamjohnbert
 google_plus:
